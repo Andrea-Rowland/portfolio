@@ -24,6 +24,14 @@ header {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image:url("../images/susan-wilkinson-lK7YpJxpS_A-unsplash_horizontal.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
 }
 
 header h1 {
@@ -48,8 +56,6 @@ li a {
     text-decoration: none;
     color: black;
     font-size: 24px;
-
-
 }
 
 .hero {
@@ -108,9 +114,7 @@ h2 {
     background-color: var(--quaternary color);
 )
 .premier-work img {
-    justify-content: right;
-
-    
+    justify-content: right;  
 }
 
 #contact-info {
