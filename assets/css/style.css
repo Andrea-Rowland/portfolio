@@ -37,7 +37,7 @@ header {
 header h1 {
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: 0;
+    margin-left: 50;
 }
 
 nav ul {
@@ -108,14 +108,59 @@ h2 {
     justify-content: space-around;
    
 }
-#my-work (
-    display: flex;
-    flex-wrap: wrap;
-    background-color: var(--quaternary color);
-)
-.premier-work img {
-    justify-content: right;  
+
+.work {
+    background-color:var(--secondary-color)
 }
+
+.work-examples {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    Margin-top: 2%
+}
+
+
+
+.work-examples article {
+    background-color: var(--quaternary-color);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 90%;
+    padding: 30px;
+}
+
+.work-examples article {
+    width: 44%;
+    margin: 2% 1%;
+}
+
+.work-examples a {
+    flex: 1 1 0%;
+}
+
+.work-examples a img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+
+.work-examples label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    text-align: center;
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
+    padding: 1vh;
+    border-radius:
+}
+
 
 #contact-info {
     background-color: var(--primary-color);
