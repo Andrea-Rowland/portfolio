@@ -42,9 +42,10 @@ header h1 {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 300px;
+    align-items: center;
+    list-style: none
 }
 
 ul li {
@@ -58,6 +59,22 @@ li a {
     font-size: 24px;
 }
 
+/* FOOTER STYLES START */
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+}
+/* FOOTER STYLES END */
 
 .hero {
     background-image: url("../images/susan-wilkinson-lK7YpJxpS_A-unsplash_horizontal.jpg");
@@ -72,11 +89,13 @@ li a {
 }
 
 h2 {
+    color:crimson;
     display:block;
-    justify-content: center;
+    justify-content: left;
+    text-align: left;
     font-size: 32px;
-    margin-left: 550px;
     margin-top: 30px;
+    margin-left: 50px;
 }
 
 .bio {
@@ -111,13 +130,18 @@ h2 {
     display: flex;
     background-color: var(--primary-color);
 }
+
+.skills h2 {
+    color: var(--primary-color);
+}
+
 /* End styles for skills section */
 
 
 
 /* Start styles for "my work" section */
 .work {
-    background-color:var(--secondary-color)
+    background-color:var(--quaternary-color)
 }
 
 .work-examples {
@@ -128,7 +152,7 @@ h2 {
 }
 
 .work-examples article {
-    background-color: var(--quaternary-color);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -139,6 +163,10 @@ h2 {
 .work-examples article {
     width: 44%;
     margin: 2% 1%;
+}
+
+.work-examples article:first-child {
+    width: 90%;
 }
 
 .work-examples a {
@@ -163,8 +191,8 @@ h2 {
     background-color: var(--quaternary-color);
     color: var(--primary-color);
     padding: 1vh;
-    border-radius:
 }
+
 /* End styles for 'my work' section */
 
 /* Start styles for 'contact' section */
@@ -200,3 +228,47 @@ h2 {
     color: white;
 }
 /* End styles for 'contact' section */
+
+/* Media query for smaller desktop screens*/
+
+@media screen and (max-width: 980px) {
+   header {
+       padding-bottom: 0;
+       justify-content: center;
+   }
+
+   header h1 {
+       width: 100%;
+       text-align: center;
+   }
+
+   footer h2 {
+       text-align: center;
+       width: 100%;
+   }
+}
+
+/* Media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15 px;
+    }
+    .bio p {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        height: 300px;
+        width: 100%;
+    }
+    .photo img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/*Media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+    
+}
