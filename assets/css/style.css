@@ -94,7 +94,7 @@ h2 {
     justify-content: left;
     text-align: center;
     font-size: 32px;
-    margin-top: 30px;
+    padding-top: 30px;
     margin-left: 50px;
 }
 
@@ -122,18 +122,25 @@ h2 {
     height: auto;
 }
 /* Start styles for skills section */
-.skill-logos {
+/*.skill-logos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-}
+}*/
 
 #skills {
     display: flex;
+    flex-direction: column;
     background-color: var(--primary-color);
 }
 
+.skills-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 /* End styles for skills section */
 
@@ -209,7 +216,7 @@ h2 {
 .feeling-social {
     display: flex;
     flex-wrap: wrap;
-    padding: 15px;
+    
 }
 
 .sm-links {
@@ -368,7 +375,7 @@ h2 {
         justify-content: center;
         width: 85%;
     }*/
-}
+
 
 /*Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
@@ -381,4 +388,10 @@ h2 {
         flex: 0 100%;
     }
 
+    .skills-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
