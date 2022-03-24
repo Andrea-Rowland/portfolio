@@ -1,15 +1,18 @@
-Challenge Requirements
+# Portfolio
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+## Purpose
+
+This portfolio was created to showcase the work I've done related to developing. As I gain more experience, I plan to update the "My Work" to reflect the new skills I'm learning. 
+
+The header of the page remains fixed in place to ease in navigation. Clicking on the navigation links will cause the page to scroll to the corresponding section. When the user scrolls to  "My Work", they are able to click on the image of the application and are taken to the deployed application. The site has been designed to be easily viewable on differenct size screens and devices.
+
+Thanks for taking a look at my portfolio!
+
+## Built With
+*HTML
+*CSS
+
+## URL Link
+https://andrea-rowland.github.io/portfolio/
+
+![web-screenshot](/assets/images/deployed-website-screenshot.JPG)
