@@ -99,21 +99,23 @@ h2 {
     width: 400px;
     height: auto;
 }
-
-.skills h2 {
-
-}
-.skill-logos img {
+/* Start styles for skills section */
+.skill-logos {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
-   
+    align-items: flex-end;
 }
 
 #skills {
+    display: flex;
     background-color: var(--primary-color);
 }
+/* End styles for skills section */
 
+
+
+/* Start styles for "my work" section */
 .work {
     background-color:var(--secondary-color)
 }
@@ -124,8 +126,6 @@ h2 {
     flex-wrap: wrap;
     Margin-top: 2%
 }
-
-
 
 .work-examples article {
     background-color: var(--quaternary-color);
@@ -165,8 +165,9 @@ h2 {
     padding: 1vh;
     border-radius:
 }
+/* End styles for 'my work' section */
 
-
+/* Start styles for 'contact' section */
 #contact-info {
     background-color: var(--primary-color);
 }
@@ -198,3 +199,4 @@ h2 {
     background: #125688;
     color: white;
 }
+/* End styles for 'contact' section */
