@@ -216,6 +216,7 @@ h2 {
 .feeling-social {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -224,6 +225,7 @@ h2 {
     flex-wrap: wrap;
     color: var(--quaternary-color);
     font-size: 50px;
+    flex-direction: row;
     
 }
 /* End styles for 'contact' section */
@@ -338,11 +340,7 @@ h2 {
         text-align: center;
         display: block;
     }
-    .flex-row {
-        flex-wrap: wrap;
-        
-    }
-
+    
     .bio {
         display: flex;
         flex-direction: row;
@@ -358,23 +356,6 @@ h2 {
     }
 }
     
-    /*.bio {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .bio p {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        width: 90%;
-        margin: 15px;
-    }
-    .photo img {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 85%;
-    }*/
 
 
 /*Media query for mobile phones and smaller */
@@ -393,5 +374,9 @@ h2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .sm-links {
+        flex-direction: row;
     }
 }
