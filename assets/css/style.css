@@ -217,6 +217,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
     
 }
 
@@ -377,6 +378,7 @@ h2 {
     }
 
     .sm-links {
+        display: flex;
         flex-direction: row;
     }
 }
