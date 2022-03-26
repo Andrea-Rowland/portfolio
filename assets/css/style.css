@@ -122,12 +122,6 @@ h2 {
     height: auto;
 }
 /* Start styles for skills section */
-/*.skill-logos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-}*/
 
 #skills {
     display: flex;
@@ -216,17 +210,17 @@ h2 {
 .feeling-social {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;      
+    justify-content: center;  
+    text-align: center;    
 }
 
 .sm-links {
-    display: flex;
+    display: inline-block;
+    margin: 0 10px;
     flex-wrap: wrap;
     color: var(--quaternary-color);
     font-size: 50px;
     justify-content: space-between;
-    
-    
 }
 /* End styles for 'contact' section */
 
@@ -361,7 +355,7 @@ h2 {
 /*Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
     
-    .contact-info {
+        .contact-info {
         text-align: center;
     }
 
