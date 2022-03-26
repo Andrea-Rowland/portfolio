@@ -65,7 +65,7 @@ footer {
     width: 100%;
     padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap:wrap;
 }
 
@@ -216,9 +216,7 @@ h2 {
 .feeling-social {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    
+    justify-content: center;      
 }
 
 .sm-links {
@@ -226,7 +224,8 @@ h2 {
     flex-wrap: wrap;
     color: var(--quaternary-color);
     font-size: 50px;
-    flex-direction: row;
+    justify-content: space-between;
+    
     
 }
 /* End styles for 'contact' section */
@@ -375,10 +374,5 @@ h2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .sm-links {
-        display: flex;
-        flex-direction: row;
-    }
+    }   
 }
