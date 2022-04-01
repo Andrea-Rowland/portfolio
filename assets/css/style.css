@@ -248,6 +248,10 @@ h2 {
     color: var(--tertiary-color);
 }
 
+#resume {
+    color: var(--secondary-color)
+}
+
 .contact-info h3 {
     color: var(--quaternary-color);
     font-size: 32px;
